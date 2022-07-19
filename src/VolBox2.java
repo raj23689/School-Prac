@@ -1,0 +1,2 @@
+public class VolBox2 {
+}
