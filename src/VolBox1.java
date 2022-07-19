@@ -14,12 +14,12 @@ public class VolBox1 {
         box1.height = 10;
         box1.length = 12;
         box1.depth = 15;
-        box1.Volume();
+        box1.Volume(); // calling the method
 
         // box2 data
         box2.height = 11;
         box2.depth = 17;
         box2.length = 18;
-        box2.Volume();
+        box2.Volume(); // calling the method
     }
 }
