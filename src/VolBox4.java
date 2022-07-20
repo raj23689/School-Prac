@@ -1,7 +1,7 @@
 public class VolBox4 {
     double height, width, depth;
-
-    double Volume( double height, double width, double depth) {
+   // parameterized method
+    double Volume1( double height, double width, double depth) {
         return height * width * depth;
     }
 
@@ -9,8 +9,8 @@ public class VolBox4 {
         VolBox4 be1 = new VolBox4();
         VolBox4 be2 = new VolBox4();
         // box's data
-        double vol1 = be1.Volume(51,56, 48);
-        double vol2 = be2.Volume(45, 54, 23);
+        double vol1 = be1.Volume1(51,56, 48);
+        double vol2 = be2.Volume1(45, 54, 23);
 
         // printing the values
         System.out.println("Box 1 vol: " + vol1);
