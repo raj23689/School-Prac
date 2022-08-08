@@ -1,13 +1,13 @@
 public class VolBox3 {
-    double height, width, depth;
-    void SetDim(double h, double w, double l) {
+    double height, length, depth;
+    void SetDim(double h, double d, double l) {
         height = h;
-        width = w;
-        depth = l;
+        depth = d;
+        length = l;
     }
 
     double Volume() {
-        return height * width * depth;
+        return height * length * depth;
     }
 
     public static void main(String[] args) {
@@ -20,9 +20,9 @@ public class VolBox3 {
 
         // Retrieving and printing the data
         double V = bo1.Volume();
-        System.out.println(V);
+        System.out.println("B1 box volume is: " + V);
         // double V = bo2.Volume(); -> this throws an error
         double V2 = bo2.Volume();
-        System.out.println(V2);
+        System.out.println("B2 box volume is: " + V2);
     }
 }
