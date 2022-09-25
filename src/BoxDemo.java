@@ -40,4 +40,11 @@ class Box_Weight extends Box {
 }
 
 public class BoxDemo {
+    public static void main(String[] args) {
+        double v1, v2, v3, v4;
+        Box_Weight b1 = new Box_Weight(10, 10, 10, 10);
+        Box_Weight b2 = new Box_Weight(2, 3, 4, 0.076);
+        Box_Weight b3 = new Box_Weight(3, 2);
+        Box_Weight b4 = new Box_Weight();
+    }
 }
