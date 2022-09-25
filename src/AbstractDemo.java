@@ -31,5 +31,12 @@ class Triangle extends Figure {
         return ((dim1 * dim2) / 2);
     }
 }
+
 public class AbstractDemo {
+    public static void main(String[] args) {
+        Rectangle r = new Rectangle(5, 8);
+        Triangle t = new Triangle(5, 8);
+        System.out.println("Area of Triangle is :: " + t.area());
+        System.out.println("Area of Rectangle is :: " + r.area());
+    }
 }
