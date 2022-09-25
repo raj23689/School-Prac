@@ -46,5 +46,11 @@ public class BoxDemo {
         Box_Weight b2 = new Box_Weight(2, 3, 4, 0.076);
         Box_Weight b3 = new Box_Weight(3, 2);
         Box_Weight b4 = new Box_Weight();
+        v1 = b1.Vol();
+        v2 = b2.Vol();
+        v3 = b3.Vol();
+        v4 = b4.Vol();
+        System.out.println("B1 vol:  " + v1);
+        System.out.println("B1 weight: " + b1.weight);
     }
 }
