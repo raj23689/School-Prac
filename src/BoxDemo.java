@@ -52,5 +52,11 @@ public class BoxDemo {
         v4 = b4.Vol();
         System.out.println("B1 vol:  " + v1);
         System.out.println("B1 weight: " + b1.weight);
+        System.out.println("B2 vol:  " + v2);
+        System.out.println("B2 weight: " + b2.weight);
+        System.out.println("B3 vol:  " + v3);
+        System.out.println("B3 weight: " + b3.weight);
+        System.out.println("B4 vol:  " + v4);
+        System.out.println("B4 weight: " + b4.weight);
     }
 }
