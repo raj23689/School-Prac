@@ -23,7 +23,21 @@ class Box {
     }
 }
 
-
+class Box_Weight extends Box {
+    double weight;
+    Box_Weight(double w, double h, double l, double n) {
+        super(w,h,l);
+        weight = n;
+    }
+    Box_Weight() {
+        super();
+        weight = -1;
+    }
+    Box_Weight(double len, double m) {
+        super(len);
+        weight = m;
+    }
+}
 
 public class BoxDemo {
 }
